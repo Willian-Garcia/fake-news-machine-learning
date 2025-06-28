@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+scikit-learn
+pandas
+numpy
+joblib
+python-multipart
+lime
+shap
+nltk
+transformers
+torch
+tqdm
+typing-extensions
