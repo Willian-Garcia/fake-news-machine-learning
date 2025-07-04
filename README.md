@@ -44,6 +44,8 @@ app/
 
 ## ⚙️ Como rodar o projeto
 
+## ⚙️ Configurando o Backend
+
 ### 1. Clone o repositório e crie o ambiente virtual
 
 ```bash
@@ -63,6 +65,21 @@ cd ..
 
 ```bash
 uvicorn app.main:app --reload
+```
+
+## ⚙️ Configurando o Frontend
+
+### 1. Instalando Dependências
+
+```bash
+cd frontend
+npm i
+```
+
+### 2. Execute o Frontend
+
+```bash
+npm start
 ```
 
 ### 4. Acesse a interface de testes (Swagger UI)

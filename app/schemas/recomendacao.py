@@ -3,7 +3,7 @@ from typing import List, Optional
 
 class RequisicaoNoticia(BaseModel):
     texto: str  # obrigatório
-    usar_exemplo: Optional[str] = "false"  # string fixa como "false"
+    usar_exemplo: bool  # string fixa como "false"
 
     class Config:
         schema_extra = {
