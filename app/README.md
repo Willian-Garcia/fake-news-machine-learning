@@ -125,6 +125,7 @@ print("Acurácia:", round(accuracy_score(y_test, y_pred), 4))
 ```
 
 Exemplo de Resultados Obtidos(ilustrativo)
+```bash
               precision    recall  f1-score   support
 falsa            0.91       0.90      0.91        200
 verdadeira       0.90       0.91      0.90        200
@@ -132,6 +133,7 @@ verdadeira       0.90       0.91      0.90        200
 accuracy                             0.905        400
 macro avg         0.905      0.905     0.905       400
 weighted avg      0.905      0.905     0.905       400
+```
 
 O modelo apresentou acurácia de 90,5%, indicando boa capacidade de generalização.
 Precisão e recall estão equilibrados para ambas as classes, o que é ideal para problemas de classificação binária.
